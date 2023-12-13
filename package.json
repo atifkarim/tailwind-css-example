@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-css-example",
+  "version": "1.0.0",
+  "description": "This project helps to learn Tailwind CSS as a beginner",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atifkarim/tailwind-css-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atifkarim/tailwind-css-example/issues"
+  },
+  "homepage": "https://github.com/atifkarim/tailwind-css-example#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.6"
+  }
+}
